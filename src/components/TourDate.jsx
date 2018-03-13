@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Display1, Headline, Title, Subheading, Body2 } from './Typography'
+import { Title, Subheading, Body2 } from './Typography'
 
 const TourDate = props => {
   const TourDate = styled.div`

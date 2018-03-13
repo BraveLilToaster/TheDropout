@@ -16,9 +16,6 @@ const HeroText = () => {
       width: 20rem;
     }
   `
-  const HeroImage = styled.img`
-    width: 10rem;
-  `
   return (
       <HeroText src={dropoutText} />
   )
