@@ -3,3 +3,29 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+@font-face {
+    font-family: 'The Hand';
+    src: url('./fonts/thehandbold-webfont.woff2') format('woff2'),
+         url('./fonts/thehandbold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'The Hand';
+    src: url('./fonts/thehandlight-webfont.woff2') format('woff2'),
+         url('./fonts/thehandlight-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'The Hand';
+    src: url('./fonts/thehandregular-webfont.woff2') format('woff2'),
+         url('./fonts/thehandregular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

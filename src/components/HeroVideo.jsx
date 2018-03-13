@@ -11,13 +11,13 @@ const HeroVideo = (props) => {
   transform: translate(-50%, -50%);
   min-height: 100vh;
   @media (min-width: 768px) {
-    min-width: 1280px;
+    min-width: 1430px;
     width: 100%;
     min-height: 100vh;
   }
 `
   return(
-    <HeroVideo loop muted autoPlay poster="img/videoframe.jpg">
+    <HeroVideo loop muted autoPlay poster="http://res.cloudinary.com/bravetoaster/image/upload/v1520916557/IMG_8630.jpg">
       <source src={heroVideoWebm720} type="video/webm"></source>
       <source src={heroVideoMP4720} type="video/mp4"></source>
     </HeroVideo>

@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import dropoutText from '../img/DropoutTextWhite.png'
+import dropoutText from '../img/TheDropout.svg'
 
 const HeroText = () => {
   const HeroText = styled.img`
@@ -8,9 +8,10 @@ const HeroText = () => {
     z-index: 900;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-80%);
     width: calc(100% - 6rem);
     max-width: 30rem;
+    fill: #fff;
     @media (min-width: 768px) {
       width: 20rem;
     }
