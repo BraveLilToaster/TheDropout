@@ -15,7 +15,7 @@ const Display4 = props => {
 }
 
 const Display3 = props => {
-  const Display3 = styled.Display1.withComponent('h2')`
+  const Display3 = styled.h2`
     font-weight: 400;
     font-size: 4rem;
     text-align: ${props => props.align || 'left'}

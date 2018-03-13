@@ -7,7 +7,7 @@ const HeroBackground = styled.div`
   overflow: hidden;
   min-height: 100vh;
   @media (min-width: 768px) {
-    min-height: 45rem;
+    min-height: 85vh;
   }
 `
   return(
