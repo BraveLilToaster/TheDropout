@@ -11,7 +11,7 @@ const HeroVideo = (props) => {
   transform: translate(-50%, -50%);
   min-height: 100vh;
   @media (min-width: 768px) {
-    min-width: 1430px;
+    min-width: 1500px;
     width: 100%;
     min-height: 100vh;
   }
