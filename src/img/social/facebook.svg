@@ -1,1 +1,4 @@
-<?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg enable-background="new 0 0 48 48" id="Layer_1" version="1.1" viewBox="0 0 48 48" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><circle cx="24" cy="24" fill="#4E71A8" r="24"/><path d="M29.9,19.5h-4v-2.6c0-1,0.7-1.2,1.1-1.2c0.5,0,2.8,0,2.8,0v-4.4l-3.9,0c-4.4,0-5.3,3.3-5.3,5.3v2.9h-2.5V24  h2.5c0,5.8,0,12.7,0,12.7h5.3c0,0,0-7,0-12.7h3.6L29.9,19.5z" fill="#FFFFFF"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewbox="0 0 48 48">
+  <circle class="foreground" cx="24" cy="24" r="23"/>
+  <path class="background" fill="#FFF" d="M24 0a24 24 0 1 0 0 48 24 24 0 0 0 0-48zm5.5 24h-3.6v12.7h-5.3V24h-2.5v-4.5h2.5v-2.9c0-2 .9-5.3 5.3-5.3h3.9v4.4H27c-.4 0-1.1.2-1.1 1.2v2.6h4l-.4 4.5z"/>
+</svg>

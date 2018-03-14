@@ -7,6 +7,10 @@ const SocialHeader = props => {
     position: absolute;
     z-index: 4;
     right: 0;
+    padding: .5rem;
+    @media (min-width: 768px) {
+      padding: 1rem;
+    }
   `
   return (
     <SocialHeader>
@@ -15,8 +19,7 @@ const SocialHeader = props => {
           return (
             <SocialLink
               key={i}
-              icon={socialLink.icon}
-              link={socialLink.link}
+              {...socialLink}
             />
           )
         })

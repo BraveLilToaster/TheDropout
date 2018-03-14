@@ -40,7 +40,7 @@ class App extends Component {
       },
       {
         icon: Social.instagram,
-        color: 'rgb(30, 215, 96)',
+        color: 'rgb(238, 72, 87)',
         link: 'https://open.spotify.com/artist/32Dm8babudNSOuAasp3Bjz',
       },
     ]
