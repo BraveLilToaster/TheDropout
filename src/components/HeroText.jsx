@@ -1,9 +1,12 @@
 import React from 'react'
+import Media from "react-media"
 import styled from 'styled-components'
+import SVG from 'react-inlinesvg'
 import dropoutText from '../img/TheDropout.svg'
+import dropoutTextHorizontal from '../img/TheDropoutHorizontal.svg'
 
 const HeroText = () => {
-  const HeroText = styled.img`
+  const HeroText = styled(SVG)`
     position: absolute;
     z-index: 900;
     top: 50%;
@@ -13,11 +16,20 @@ const HeroText = () => {
     max-width: 30rem;
     fill: #fff;
     @media (min-width: 768px) {
-      width: 20rem;
+      width: 100%;
+      max-width: 45rem;
     }
   `
   return (
-      <HeroText src={dropoutText} />
+    <Media query={{ maxWidth: 768 }}>
+      {matches =>
+        matches ? (
+          <HeroText src={dropoutText} />
+        ) : (
+          <HeroText src={dropoutTextHorizontal} />
+        )
+      }
+    </Media>
   )
 }
 export default HeroText
