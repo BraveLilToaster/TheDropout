@@ -36,12 +36,12 @@ class App extends Component {
       {
         icon: Social.facebook,
         color: 'rgb(59, 89, 152)',
-        link: 'https://open.spotify.com/artist/32Dm8babudNSOuAasp3Bjz',
+        link: 'https://www.facebook.com/andthedropout/',
       },
       {
         icon: Social.instagram,
         color: 'rgb(238, 72, 87)',
-        link: 'https://open.spotify.com/artist/32Dm8babudNSOuAasp3Bjz',
+        link: 'https://www.instagram.com/andthedropout/',
       },
     ]
 

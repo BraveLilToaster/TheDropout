@@ -1,3 +1,6 @@
+import 'isomorphic-fetch'
+
+
 const headers = {
   JSON: {
     'Content-Type': 'application/json',
