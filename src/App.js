@@ -54,7 +54,7 @@ class App extends Component {
         </Hero>
         <Container>
           <Section>
-            <Display4 align={'center'} >
+            <Display4 align={'center'} fontWeight={'bold'}>
               Tour Dates
             </Display4>
             <TourDateList tourDates={this.state.tourDates} />

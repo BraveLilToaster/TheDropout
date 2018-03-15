@@ -6,140 +6,96 @@ const font = {
   secondary: 'The Hand Regular',
 }
 
+const TextComponent = styled.p`
+  text-align: ${props => props.align || 'left'};
+  color: ${props => props.color || 'rgba(0, 0, 0, .87)'};
+  font-family: ${font.primary};
+  font-weight: ${props => props.fontWeight || 'normal'};
+`
+
 const Display4 = props => {
-  const Display4 = styled.h1`
-    text-align: ${props => props.align || 'left'};
-    color: ${props => props.color || 'rgba(0, 0, 0, .87)'};
-    font-family: ${font.primary};
-    font-weight: normal;
+  const Display4 = TextComponent.withComponent('h1').extend`
     font-size: 7rem;
     margin: 1rem 0 2rem;
   `
   return (
-    <Display4 align={props.align} color={props.color}>
-      {props.children}
-    </Display4>
+    <Display4 {...props} />
   )
 }
 
 const Display3 = props => {
-  const Display3 = styled.h2`
-    text-align: ${props => props.align || 'left'}
-    color: ${props => props.color || 'rgba(0, 0, 0, .87)'};
-    font-family: ${font.primary};
-    font-weight: 400;
+  const Display3 = TextComponent.withComponent('h2').extend`
     font-size: 6rem;
     margin: 0.9rem 0 1.8rem;
   `
   return (
-    <Display3 align={props.align} color={props.color}>
-      {props.children}
-    </Display3>
+    <Display3 {...props}/>
   )
 }
 const Display2 = props => {
-  const Display2 = styled.h3`
-    text-align: ${props => props.align || 'left'}
-    color: ${props => props.color || 'rgba(0, 0, 0, .87)'};
-    font-family: ${font.primary};
-    font-weight: 400;
+  const Display2 = TextComponent.withComponent('h3').extend`
     font-size: 5rem;
     margin: 0.5rem 0 1rem;
   `
   return (
-    <Display2 align={props.align} color={props.color}>
-      {props.children}
-    </Display2>
+    <Display2 {...props}/>
   )
 }
 const Display1 = props => {
-  const Display1 = styled.h4`
-    text-align: ${props => props.align || 'left'}
-    color: ${props => props.color || 'rgba(0, 0, 0, .87)'};
-    font-family: ${font.primary};
-    font-weight: 400;
+  const Display1 = TextComponent.withComponent('h4').extend`
     font-size: 4rem;
     margin: 0.5rem 0 1rem;
   `
   return (
-    <Display1 align={props.align} color={props.color}>
-      {props.children}
-    </Display1>
+    <Display1 {...props}/>
   )
 }
 const Headline = props => {
-  const Headline = styled.h5`
-    text-align: ${props => props.align || 'left'}
-    color: ${props => props.color || 'rgba(0, 0, 0, .87)'};
-    font-family: ${font.primary};
-    font-weight: 400;
+  const Headline = TextComponent.withComponent('h5').extend`
     font-size: 3.5rem;
     margin: 0.5rem 0 1rem;
   `
   return (
-    <Headline align={props.align} color={props.color}>
-      {props.children}
-    </Headline>
+    <Headline {...props} />
   )
 }
 const Title = props => {
-  const Title = styled.h6`
-    text-align: ${props => props.align || 'left'}
-    color: ${props => props.color || 'rgba(0, 0, 0, .87)'};
-    font-family: ${font.primary};
-    font-weight: 700;
+  const Title = TextComponent.withComponent('h6').extend`
+    font-weight: bold;
     font-size: 3rem;
     margin: 0.2rem 0 .3rem;
   `
   return (
-    <Title align={props.align} color={props.color}>
-      {props.children}
-    </Title>
+    <Title {...props} />
   )
 }
 const Subheading = props => {
-  const Subheading = styled.p`
-    text-align: ${props => props.align || 'left'}
-    color: ${props => props.color || 'rgba(0, 0, 0, .87)'};
-    font-family: ${font.primary};
-    font-weight: 700;
+  const Subheading = TextComponent.withComponent('p').extend`
+    font-weight: bold;
     font-size: 2.5rem;
     margin: 0.2rem 0 .3rem;
   `
   return (
-    <Subheading align={props.align} color={props.color}>
-      {props.children}
-    </Subheading>
+    <Subheading {...props} />
   )
 }
 const Body2 = props => {
-  const Body2 = styled.p`
-    text-align: ${props => props.align || 'left'}
-    color: ${props => props.color || 'rgba(0, 0, 0, .87)'};
-    font-family: ${font.primary};
-    font-weight: 700;
+  const Body2 = TextComponent.withComponent('p').extend`
+    font-weight: bold;
     font-size: 2rem;
     margin: 0.5rem 0 1rem;
   `
   return (
-    <Body2 align={props.align} color={props.color}>
-      {props.children}
-    </Body2>
+    <Body2 {...props} />
   )
 }
 const Body1 = props => {
-  const Body1 = styled.p`
-    text-align: ${props => props.align || 'left'}
-    color: ${props => props.color || 'rgba(0, 0, 0, .87)'};
-    font-family: ${font.primary};
-    font-weight: 400;
+  const Body1 = TextComponent.withComponent('p').extend`
     font-size: 2rem;
     margin: 0.5rem 0 1rem;
   `
   return (
-    <Body1 align={props.align} color={props.color}>
-      {props.children}
-    </Body1>
+    <Body1 {...props} />
   )
 }
 
