@@ -1,7 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import heroVideoMP4720 from '../video/DropoutReel720.mp4'
-import heroVideoWebm720 from '../video/DropoutReel720.webm'
 
 const HeroVideo = (props) => {
   const HeroVideo = styled.video`
@@ -20,8 +18,8 @@ const HeroVideo = (props) => {
 `
   return(
     <HeroVideo loop muted autoPlay poster="http://res.cloudinary.com/bravetoaster/image/upload/v1520916557/IMG_8630.jpg">
-      <source src={heroVideoWebm720} type="video/webm"></source>
-      <source src={heroVideoMP4720} type="video/mp4"></source>
+      <source src="https://res.cloudinary.com/bravetoaster/video/upload/v1521134860/The%20Dropout/DropoutReel720.webm" type="video/webm"></source>
+      <source src="https://res.cloudinary.com/bravetoaster/video/upload/v1521134774/The%20Dropout/DropoutReel720mp4.mp4" type="video/mp4"></source>
     </HeroVideo>
   )
 
