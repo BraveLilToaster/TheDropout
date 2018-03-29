@@ -7,6 +7,7 @@
     "gatsby": "^1.9.232",
     "gatsby-link": "^1.6.39",
     "gatsby-plugin-react-helmet": "^2.0.7",
+    "gatsby-plugin-styled-components": "^2.0.11",
     "isomorphic-fetch": "^2.2.1",
     "react-helmet": "^5.2.0",
     "react-inlinesvg": "^0.8.0",

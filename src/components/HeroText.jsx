@@ -11,17 +11,18 @@ const HeroText = () => {
     z-index: 900;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-80%);
+    transform: translate(-50%,-50%);
     width: calc(100% - 6rem);
     max-width: 30rem;
     fill: #fff;
     @media (min-width: 768px) {
       width: 100%;
+      transform: translate(-50%,-80%);
       max-width: 45rem;
     }
   `
   return (
-    <Media query={{ maxWidth: 768 }}>
+    <Media query={{ maxWidth: 767 }}>
       {matches =>
         matches ? (
           <HeroText src={dropoutText} />
