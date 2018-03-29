@@ -24,7 +24,7 @@ const HeroVideo = (props) => {
     left: 0px;
     z-index: 2;
     background: #000;
-    opacity: 0.5;
+    opacity: 0.34;
   `
   return(
     <div>
